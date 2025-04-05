@@ -1,0 +1,37 @@
+[[LAPACK32]]
+arch = "aarch64"
+git-tree-sha1 = "f92e571b496915788f96e88358c3080157aa6b6d"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[LAPACK32.download]]
+    sha256 = "41d6344e7cd7f4541a0deee7cef187e6c5d3dce9df7efe8ce00cf375bf9c00ac"
+    url = "https://github.com/amontoison/LAPACK32_jll.jl/releases/download/LAPACK32-v3.12.0+2/LAPACK32.v3.12.0.aarch64-apple-darwin-libgfortran5.tar.gz"
+[[LAPACK32]]
+arch = "x86_64"
+git-tree-sha1 = "721d47ac5a10906c32ce8d05b493ed6106e6442e"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[LAPACK32.download]]
+    sha256 = "2de534c318f752b689ec795ed6675b77d48a4b5a06f9fed697ea22d90b52a820"
+    url = "https://github.com/amontoison/LAPACK32_jll.jl/releases/download/LAPACK32-v3.12.0+2/LAPACK32.v3.12.0.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[LAPACK32]]
+arch = "x86_64"
+git-tree-sha1 = "acce08f922c921257739c9c2dc1db1194c15454f"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LAPACK32.download]]
+    sha256 = "5e4f9cad97bb82e1f1f0a0e7737a34b622c32f3e18128a2dea7eed9595032160"
+    url = "https://github.com/amontoison/LAPACK32_jll.jl/releases/download/LAPACK32-v3.12.0+2/LAPACK32.v3.12.0.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[LAPACK32]]
+arch = "x86_64"
+git-tree-sha1 = "776fb85891b4de48b336fb9a5ee62451542f6ff4"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[LAPACK32.download]]
+    sha256 = "f9939d425627aac876c0286c35d1b0da1c4c074a9b13d3253d3c4af40069b7ad"
+    url = "https://github.com/amontoison/LAPACK32_jll.jl/releases/download/LAPACK32-v3.12.0+2/LAPACK32.v3.12.0.x86_64-w64-mingw32-libgfortran5.tar.gz"

@@ -1,0 +1,16 @@
+name = "LAPACK32_jll"
+uuid = "17f450c3-bd24-55df-bb84-8c51b4b939e3"
+version = "3.12.0+2"
+
+[deps]
+ReferenceBLAS32_jll = "9e84b91c-71b0-5f24-acdc-49dbe8049396"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+JLLWrappers = "1.2.0"
+julia = "1.9"
+Libdl = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"
